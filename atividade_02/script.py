@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #carregando imagem
-img = cv2.imread('atividade_01\img\people2.jpg')
+img = cv2.imread('atividade_02\img\people2.jpg')
 
 #desenhando retângulos ao redor da face das pessoas
 cv2.rectangle(img, (490, 190), (700, 520), (255, 0, 0), 3)
